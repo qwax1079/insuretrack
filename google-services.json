@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "56095153546",
+    "project_id": "insuretrack-18851",
+    "storage_bucket": "insuretrack-18851.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:56095153546:android:7b4d6dc9840a21b35b7c73",
+        "android_client_info": {
+          "package_name": "com.app.insuretrack"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDwFuZv-BLrnyclMASOOFBaiH6FLDmc_k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
