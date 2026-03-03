@@ -1,0 +1,5 @@
+{
+  "name": "InsureTrack",
+  "description": "Personal sales tracker for insurance agents to manage leads, track commissions, and improve closing rates.",
+  "requestFramePermissions": []
+}
