@@ -633,7 +633,7 @@ export default function App() {
                 </Card>
               </div>
 
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 min-w-0">
                 {/* Follow Up List */}
                 <Card>
                   <div className="p-4 border-b border-black/5 dark:border-white/5 flex justify-between items-center">
@@ -670,10 +670,10 @@ export default function App() {
                 </Card>
 
                 {/* Lead Status Chart */}
-                <Card className="p-6">
+                <Card className="p-6 min-w-0">
                   <h3 className="font-bold text-sm mb-6 dark:text-white">{t.leadStatusDistribution}</h3>
-                  <div className="h-[300px] w-full">
-                    <ResponsiveContainer width="100%" height="100%">
+                  <div className="w-full relative min-w-0">
+                    <ResponsiveContainer width="100%" height={300} minWidth={0}>
                       <PieChart>
                         <Pie
                           data={stats?.leadStats || []}
